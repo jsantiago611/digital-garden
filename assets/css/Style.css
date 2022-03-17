@@ -907,7 +907,7 @@ hr {
 .mn-right {
     float: right;
     clear: right;
-    font-family:  var(--secondary-font-family) !important;
+    font-family:  var(--primary-font-family) !important;
     font-size: 14px;
     margin-right: -45%;
     width: 40%;
