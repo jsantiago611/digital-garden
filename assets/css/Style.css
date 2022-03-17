@@ -21,6 +21,30 @@ layout: Stylesheet
    font-display: swap;
 }
 
+@font-face {
+   font-family: 'SIGNIFIER';
+   src: url('../fonts/signifier-web-regular.woff2') format('woff2');
+   font-weight: 400;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'SIGNIFIER';
+   src: url('../fonts/signifier-web-regular-italic.woff2') format('woff2');
+   font-weight: 400;
+   font-style: italic;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'SIGNIFIER';
+   src: url('../fonts/soehne-web-halbfett_1.woff2') format('woff2');
+   font-weight: 700;
+   font-style: normal;
+   font-display: swap;
+}
+
 :root {
     --main-hue: 0;
     --primary-bg-color: hsl(var(--main-hue), 0%, 100%);
@@ -47,7 +71,7 @@ layout: Stylesheet
     --searchbox-shadow-color:  hsl(204, 63.0%, 78.8%);
     --heading-font-family: 'SOEHNE', -apple-system,system-ui,BlinkMacSystemFont,"Helvetica","Arial",sans-serif;
     --primary-font-family: 'SOEHNE', -apple-system,system-ui,BlinkMacSystemFont,"Helvetica","Arial",sans-serif;
-    --secondary-font-family: sans-serif;
+    --secondary-font-family: 'SIGNIFIER', sans-serif;
 }
 
 
@@ -125,7 +149,7 @@ h6 {
 h1, h2 {
   color: var(--primary-text-color);
   font-family:  var(--heading-font-family);
-  font-weight: normal;
+  font-weight: bold;
 }
 
 h2 {
