@@ -6,9 +6,17 @@ layout: Stylesheet
 /* Containers: Body, Container, Box, Main, Header, Content */ 
 
 @font-face {
-   font-family: 'SOEHNE_HALBFETT';
-   src: url('../fonts/soehne-web-halbfett_1.woff2') format('woff2');
+   font-family: 'SOEHNE';
+   src: url('../fonts/soehne-web-buch.woff2') format('woff2');
    font-weight: 400;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'SOEHNE';
+   src: url('../fonts/soehne-web-halbfett_1.woff2') format('woff2');
+   font-weight: 700;
    font-style: normal;
    font-display: swap;
 }
@@ -37,8 +45,8 @@ layout: Stylesheet
     --anchor-link-color: hsl(205, 12%, 70%);
     --search-placeholder-color: hsl(var(--main-hue), 0%, 60.0%);
     --searchbox-shadow-color:  hsl(204, 63.0%, 78.8%);
-    --heading-font-family: 'SOEHNE_HALBFETT', Georgia, serif;
-    --primary-font-family: sans-serif;
+    --heading-font-family: 'SOEHNE', -apple-system,system-ui,BlinkMacSystemFont,"Helvetica","Arial",sans-serif;
+    --primary-font-family: 'SOEHNE', -apple-system,system-ui,BlinkMacSystemFont,"Helvetica","Arial",sans-serif;
     --secondary-font-family: sans-serif;
 }
 
