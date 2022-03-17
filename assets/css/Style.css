@@ -5,6 +5,14 @@ layout: Stylesheet
 @import "/assets/css/highlight.css";
 /* Containers: Body, Container, Box, Main, Header, Content */ 
 
+@font-face {
+   font-family: 'SOEHNE_HALBFETT';
+   src: url('../fonts/soehne-web-halbfett_1.woff2') format('woff2');
+   font-weight: 400;
+   font-style: normal;
+   font-display: swap;
+}
+
 :root {
     --main-hue: 0;
     --primary-bg-color: hsl(var(--main-hue), 0%, 100%);
@@ -29,7 +37,7 @@ layout: Stylesheet
     --anchor-link-color: hsl(205, 12%, 70%);
     --search-placeholder-color: hsl(var(--main-hue), 0%, 60.0%);
     --searchbox-shadow-color:  hsl(204, 63.0%, 78.8%);
-    --heading-font-family: Georgia, serif;
+    --heading-font-family: 'SOEHNE_HALBFETT', Georgia, serif;
     --primary-font-family: sans-serif;
     --secondary-font-family: sans-serif;
 }
