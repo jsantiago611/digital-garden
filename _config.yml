@@ -20,7 +20,7 @@
 
 
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://simply-jekyll.netlify.app/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://jonathansantiago.netlify.app/" # the base hostname & protocol for your site, e.g. http://example.com
 
 #######################################################################
 # Settings related to the Header and your About page go here,such as 
@@ -28,13 +28,13 @@ url: "https://simply-jekyll.netlify.app/" # the base hostname & protocol for you
 # your social media links etc
 #######################################################################
 
-heading: Simply Jekyll
+heading: Spiritual Growth Labs
 subheading: # subheading won't work without a tagline, 
           # tagline is mandatory if you want the 
           # suheading to appear. The reason is
           # having a heading and a subheading looks 
           # ridiculous.
-  enabled: true
+  enabled: false
   name: Notes and Thoughts
 tagline: # subheading won't work without a tagline, 
          # tagline is mandatory if you want the 
@@ -45,31 +45,31 @@ tagline: # subheading won't work without a tagline,
          # the subheading to support the main heading
          # which in this case is 'Knowledge Continuum'
   enabled: true
-  name: An experiment to spark conversations
+  name: Experiments in Christian Lifestyle Design
 copyright: 
-  year: 2020
-  msg: Raghuveer S # This is a mandatory attribute for copyright to be displayed
+  year: 2022
+  msg: Jonathan S # This is a mandatory attribute for copyright to be displayed
 
 user:
   display: true # setting it to false will remove the header image and bio
                 # Note that user settings come wholesale, it does not have the 
                 # granular enabling or disabling as with the 'preferences'
                 # or the site-wide settings.
-  name: Raghuveer S
-  bio: Programmer ∪ Writer. Interested in constraints and correspondences.
-  email: raghu-veer@outlook.com
+  name: Jonathan S
+  bio: Christian writer building a digital garden featuring loosely opinionated notes, half-formed ideas, and content that is always growing.
+  email: santiagowriter@gmail.com
   photo: /assets/img/profile.png
-  alt_link: rgvr.me
+  alt_link: 
   social: # just leave the field blank or type in null, if you don't have a
           # particular social media account and it won't appear
-    enabled: false  # turn this to true
-    twitter: rgvrme
-    github: rgvr 
-    youtube: rgvr 
-    linkedin: rgvr  
-    twitch: null
-    facebook: null 
-    instagram: null
+    enabled: true  # turn this to true
+    twitter: https://twitter.com/jderekjames
+    github:  
+    youtube:  
+    linkedin:   
+    twitch: 
+    facebook:  
+    instagram: 
 
 
 
@@ -131,7 +131,7 @@ plugins:
 disqus:
     # Leave shortname blank to disable comments site-wide.
     # Disable comments for any post by adding `comments: false` to that post's YAML Front Matter.
-    shortname: rgvr
+    shortname: jonathansantiago
 
 markdown: kramdown
 
