@@ -63,7 +63,7 @@ user:
   social: # just leave the field blank or type in null, if you don't have a
           # particular social media account and it won't appear
     enabled: true  # turn this to true
-    twitter: https://twitter.com/jderekjames
+    twitter: jderekjames
     github:  
     youtube:  
     linkedin:   
