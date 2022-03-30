@@ -153,8 +153,8 @@ h1, h2 {
 }
 
 h2 {
-  padding-bottom: 0.25em;
-  border-bottom: 1px solid var(--secondary-border-color);
+  /* padding-bottom: 0.25em;
+     border-bottom: 1px solid var(--secondary-border-color); */
 }
 
 h3, h4, h5, h6 {
@@ -167,6 +167,7 @@ a, p, ul, li, ol, table, span, blockquote {
     color: var(--primary-text-color);
     font-family:   var(--secondary-font-family);
     font-size: 20px;  /* Let's set the font-size to something old-man friendly */
+    line-height: 1.5em;
 }
 
 p a,
